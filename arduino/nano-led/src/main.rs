@@ -18,7 +18,7 @@ fn main() -> ! {
      * examples available.
      */
 
-    let mut led = pins.d13.into_output();
+    let mut led = pins.d12.into_output();
 
     loop {
         led.toggle();
